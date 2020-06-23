@@ -184,13 +184,13 @@
 		<repository>
 			<id>deploymentRepo</id>
 			<name>Internal Releases</name>
-			<url>http://18.220.41.173:8081/repository/maven-releases/</url>
+			<url>http://3.16.51.0:8081/repository/maven-releases/</url>
 		</repository>
 	 
 		<snapshotRepository>
 			<id>deploymentRepo</id>
 			<name>Internal Releases</name>
-			<url>http://18.220.41.173:8081/repository/maven-snapshots/</url>
+			<url>http://3.16.51.0:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
