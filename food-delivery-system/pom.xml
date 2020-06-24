@@ -187,11 +187,11 @@
 		<url>http://3.15.168.51:8081/repository/maven-releases/</url>
 	</repository>
  
-	<snapshotRepository>
+	<releasesRepository>
 		<id>deploymentRepo</id>
 		<name>Internal Releases</name>
-		<url>http://3.15.168.51:8081/repository/maven-snapshots/</url>
-	</snapshotRepository>
+		<url>http://3.15.168.51:8081/repository/maven-releases/</url>
+	</releasesRepository>
 </distributionManagement>
 
 
