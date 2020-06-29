@@ -184,13 +184,13 @@
 	<repository>
 		<id>deploymentRepo</id>
 		<name>Internal Releases</name>
-		<url>192.168.0.105:8081/repository/maven-releases/</url>
+		<url>http://192.168.0.105:8081/repository/maven-releases/</url>
 	</repository>
  
 	<snapshotRepository>
 		<id>deploymentRepo</id>
 		<name>Internal Releases</name>
-		<url>192.168.0.105:8081/repository/maven-snapshots/</url>
+		<url>http://192.168.0.105:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
 </distributionManagement> 
 
