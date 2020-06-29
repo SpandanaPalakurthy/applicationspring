@@ -180,7 +180,7 @@
 			</plugins>
 	
 		</build>
-<!-- 		<distributionManagement>
+ 		<distributionManagement>
 	<repository>
 		<id>deploymentRepo</id>
 		<name>Internal Releases</name>
@@ -192,7 +192,7 @@
 		<name>Internal Releases</name>
 		<url>192.168.0.105:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
-</distributionManagement> -->
+</distributionManagement> 
 
 
 	
