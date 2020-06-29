@@ -53,13 +53,7 @@ pipeline {
 	                }
 	            }  
 	        }
-	        stage ('maven deploy'){
-	            steps {
-	                script {
-	                    bat "mvn -f food-delivery-system/pom.xml deploy"
-	                }
-	            }  
-	        }
+	        
 	    }
 	    post {
 	    always {
