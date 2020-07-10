@@ -28,10 +28,11 @@ public class Admin {
 	@Column(name = "admin_id")
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int adminId;
+	
 	@NotNull(message= "username cannot be null")
 	@Size(min=3, message= "min of 3 is required")
 	@Pattern(regexp = "^[a-z A-Z]*$", message = "a-z and A-Zare allowed")
-
+	@Column(name = "admin_username")
 	private String adminUsername;
 
 	@NotNull(message= "password cannot be null")
