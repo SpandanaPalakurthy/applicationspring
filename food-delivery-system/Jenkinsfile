@@ -7,56 +7,56 @@ pipeline {
 	        stage ('maven clean'){
 	            steps {
 	                script {
-	                    bat "mvn -f food-delivery-system/pom.xml clean"
+	                    sh "mvn -f food-delivery-system/pom.xml clean"
 	                }
 	            }  
 	        }
 	        stage ('maven validate'){
 	            steps {
 	                script {
-	                    bat "mvn -f food-delivery-system/pom.xml validate"
+	                    sh "mvn -f food-delivery-system/pom.xml validate"
 	                }
 	            }  
 	        }
 	        stage ('maven compile'){
 	            steps {
 	                script {
-	                    bat "mvn -f food-delivery-system/pom.xml compile"
+	                    sh "mvn -f food-delivery-system/pom.xml compile"
 	                }
 	            }  
 	        }
 	        stage ('maven test'){
 	            steps {
 	                script {
-	                    bat "mvn -f food-delivery-system/pom.xml test"
+	                    sh "mvn -f food-delivery-system/pom.xml test"
 	                }
 	            }  
 	        }
 	        stage ('maven package'){
 	            steps {
 	                script {
-	                    bat "mvn -f food-delivery-system/pom.xml package"
+	                    sh "mvn -f food-delivery-system/pom.xml package"
 	                }
 	            }  
 	        }
 	        stage ('maven verify'){
 	            steps {
 	                script {
-	                    bat "mvn -f food-delivery-system/pom.xml verify"
+	                    sh "mvn -f food-delivery-system/pom.xml verify"
 	                }
 	            }  
 	        }
 	        stage ('maven install'){
 	            steps {
 	                script {
-	                    bat "mvn -f food-delivery-system/pom.xml install"
+	                    sh "mvn -f food-delivery-system/pom.xml install"
 	                }
 	            }  
 	        }
 	        stage ('maven deploy'){
                 steps {
                     script {
-                        bat "mvn -f food-delivery-system/pom.xml deploy"
+                        sh "mvn -f food-delivery-system/pom.xml deploy"
                     }
                 }
             }
